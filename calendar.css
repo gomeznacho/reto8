@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    text-align: center;
+    width: 300px;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+}
+.mes{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.botones {
+    flex-direction: row;
+    left: 50px;
+    display:block
+}
+
+.arrow{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+button:hover{
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+.primer-dia {
+    grid-column-start: 6;
+}
+
+h1{
+    text-align: center;
+}
+li:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.otromes{
+    color: gray;
+    
+}
+
+.dia{
+    cursor:none;
+    background: gray;
+    font-weight: bold; 
+}
+.dia:hover{
+    background-color: gray;
+    cursor:unset;
+}
+/*
+#enero{
+    opacity: 0;
+}
+#febrero{
+    opacity: 1;
+}
+#marzo{
+    opacity: 0;
+} */
